@@ -1,0 +1,93 @@
+.form {
+    width: 996px;
+    margin: 0 auto;
+    padding: 45px 0 55px;
+    overflow: hidden;
+}
+
+.myfrom {
+    width: 310px;
+    margin: 0 auto;
+    /* background: #ededed; */
+    /* height: 40px; */
+    /* margin-bottom: 10px; */
+    /* line-height: 40px; */
+}
+
+.input {
+    width: 310px;
+    margin: 0 auto;
+    background: #ededed;
+    height: 40px;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+
+.input .el-input__inner {
+    display: inline-block;
+    background: none;
+    border: none;
+    height: 38px;
+    line-height: 38px;
+    width: 210px;
+    padding-left: 10px;
+    font-size: 14px;
+    border: 1px solid #ededed;
+    color: #626262;
+}
+
+.input .el-form-item__label {
+    float: left;
+    width: 50px;
+    border-right: 5px #fff solid;
+    text-align: center;
+    padding: 0 5px 0 10px;
+    font-size: 14px;
+}
+
+.input .el-form-item__content {
+    width: 680px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.el-form-item__content .el-form-item__error::after {
+    display: block;
+    content: '';
+    border: 10px solid transparent;
+    border-right-color: #ededed;
+    left: -20px;
+    top: -1px;
+    position: absolute;
+}
+
+.el-form-item__content .el-form-item__error {
+    display: inline-block;
+    height: 25px;
+    background-color: #ededed;
+    width: 210px;
+    position: absolute;
+    text-align: center;
+    line-height: 22px;
+    margin: 4px;
+    left: 280px;
+    top: 0;
+    border: 0
+}
+
+.mybutton {
+    background-color: #fff
+}
+
+.mybutton .button {
+    margin-left: -100px;
+    width: 195px;
+    height: 40px;
+    background-color: #409EFF;
+    border-radius: 0
+}
+
+.input .el-input__inner:focus {
+    border: 0;
+}
